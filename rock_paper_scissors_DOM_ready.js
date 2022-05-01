@@ -16,7 +16,6 @@ let result
 let computerScoreDisplay = 0 
 let playerScoreDisplay = 0
 
-
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (evt) => { 
         document.getElementById('computer-choice').style.display = "block"
         document.getElementById('your-choice').style.display = "block"
